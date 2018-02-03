@@ -2,11 +2,11 @@
   "name": "react-worker-image",
   "version": "1.0.6",
   "description": "React component to fetch image resources via web workers",
-  "main": "./build/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production babel lib -d build",
-    "prepublishOnly": "npm run build"
+    "build": "NODE_ENV=production babel lib/ImageWorker.js --out-file index.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,6 @@
   "bugs": {
     "url": "https://github.com/nitish24p/react-worker-image/issues"
   },
-  "files": [
-    "build"
-  ],
   "homepage": "https://github.com/nitish24p/react-worker-image#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",

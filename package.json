@@ -2,10 +2,10 @@
   "name": "react-worker-image",
   "version": "1.0.8",
   "description": "React component to fetch image resources via web workers",
-  "main": "./build/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production babel lib -d build",
+    "build": "NODE_ENV=production babel lib/ImageWorker.js --out-file index.js",
     "prepublish": "npm run build"
   },
   "repository": {

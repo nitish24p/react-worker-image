@@ -1,6 +1,6 @@
 {
   "name": "react-worker-image",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React component to fetch image resources via web workers",
   "main": "./build/index.js",
   "scripts": {

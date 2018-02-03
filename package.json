@@ -4,7 +4,6 @@
   "description": "React component to fetch image resources via web workers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel lib/ImageWorker.js --out-file index.js",
     "prepublish": "npm run build"
   },
@@ -33,7 +32,7 @@
     "flow-bin": "^0.64.0"
   },
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^15.0.0-0 || ^16.0.0-0",
+    "react-dom": "^15.0.0-0 || ^16.0.0-0"
   }
 }

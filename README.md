@@ -44,3 +44,11 @@ The above props are applied to the img tag.
 
 Found a bug file them [here](https://github.com/nitish24p/react-worker-image/issues).
 
+>Component in Action
+
+Observe the page Load time at the bottom right corner in both cases.
+
+The first is via a webworker and the second is the regular get.
+
+<img src="./screen/screen.gif">
+

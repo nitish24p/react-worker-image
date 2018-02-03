@@ -37,7 +37,9 @@ import ImageWorker from 'react-worker-image';
 | placeholder      | optional      |   string or Component|
 | style | optional     |    Object |
 |imageClass | optional | string
+|containerClass | optional | string
 
 The above props are applied to the img tag.
 
 Found a bug file them [here](https://github.com/nitish24p/react-worker-image/issues).
+

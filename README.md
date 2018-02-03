@@ -16,16 +16,17 @@ yarn add react-worker-image
 
 `react-worker-image` exports one react component which takes `src` as a prop, and an optional prop of `placeholder`, `style` and `imageClass` which are applied to the img tag.
 
-```javascript
+```js
 const ImageWorker = require('react-worker-image').default;
 
 or
 
 import ImageWorker from 'react-worker-image';
 
-
+```
+usage in code
+```jsx
 <ImageWorker src='http://image-url' />
-
 ```
 
 ## Props List

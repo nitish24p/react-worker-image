@@ -1,6 +1,6 @@
 {
   "name": "react-worker-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component to fetch image resources via web workers",
   "main": "./build/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/nitish24p/react-worker-image/issues"
   },
   "homepage": "https://github.com/nitish24p/react-worker-image#readme",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",

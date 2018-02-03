@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/nitish24p/react-worker-image/issues"
   },
+  "files": [
+    "build"
+  ],
   "homepage": "https://github.com/nitish24p/react-worker-image#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",

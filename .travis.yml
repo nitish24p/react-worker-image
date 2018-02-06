@@ -5,13 +5,13 @@ node_js:
   - "6"
   - "lts/*"
 
-before_script:
-  - npm install  -g eslint # or install only eslint plugins needed
+# before_script:
+#   - npm install  -g eslint # or install only eslint plugins needed
   
- script:
-  - npm run eslint # eslint  in scripts of package.json
+#  script:
+#   - npm run eslint # eslint  in scripts of package.json
   
- cache:
-  apt: true
-  directories:
-    - node_module  
+#  cache:
+#   apt: true
+#   directories:
+#     - node_module  

@@ -4,7 +4,7 @@ language: node_js
 node_js:
   - "lts/*"
 
-before_script
+before_script:
   - npm install # or install only eslint plugins needed
   
  script:

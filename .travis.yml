@@ -1,16 +1,14 @@
-
 language: node_js
-
 node_js:
   - "lts/*"
 
-before_script
-  - npm install # or install only eslint plugins needed
+before_script:
+  - npm install  -g eslint
   
- script:
-  - npm run eslint # eslint  in scripts of package.json
+script:
+  - npm run eslint
   
- cache:
+cache:
   apt: true
   directories:
     - node_module  

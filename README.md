@@ -1,4 +1,5 @@
 # react-worker-image
+[![Build Status](https://travis-ci.org/nitish24p/react-worker-image.svg?branch=master)](https://travis-ci.org/nitish24p/react-worker-image)
 React component to fetch image resources via web workers
 
 [react-worker-image](https://www.npmjs.com/package/react-worker-image) is a React component for loading images via a web worker. Thereby not blocking the main thread and speeding up page load time.

@@ -3,15 +3,14 @@ node_js:
   - "iojs"
   - "7"
   - "6"
-  - "lts/*"
 
-# before_script:
-#   - npm install  -g eslint # or install only eslint plugins needed
+before_script:
+  - npm install  -g eslint
   
-#  script:
-#   - npm run eslint # eslint  in scripts of package.json
+script:
+  - npm run eslint
   
-#  cache:
-#   apt: true
-#   directories:
-#     - node_module  
+cache:
+  apt: true
+  directories:
+    - node_module  

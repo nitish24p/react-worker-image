@@ -1,11 +1,11 @@
 
 language: node_js
-
 node_js:
-  - "lts/*"
+  - "iojs"
+  - "7"
 
 before_script:
-  - npm install # or install only eslint plugins needed
+  - npm install  -g eslint # or install only eslint plugins needed
   
  script:
   - npm run eslint # eslint  in scripts of package.json

@@ -15,7 +15,7 @@ yarn add react-worker-image
 
 ## Usage
 
-`react-worker-image` exports one react component which takes `src` as a prop, and an optional prop of `placeholder`, `style` and `imageClass` which are applied to the img tag.
+`react-worker-image` exports one react component which takes `src` as a prop, and an optional prop of `placeholder`.
 
 ```js
 const ImageWorker = require('react-worker-image').default;
@@ -37,11 +37,8 @@ usage in code
 | ------------- |:-------------:| --------------:|
 | src      | yes |  string |
 | placeholder      | optional      |   string or Component|
-| style | optional     |    Object |
-|imageClass | optional | string
-|containerClass | optional | string
 
-The above props are applied to the img tag.
+Any other attribute that is passed to the component will be applied to the img tag.
 
 Found a bug file them [here](https://github.com/nitish24p/react-worker-image/issues).
 

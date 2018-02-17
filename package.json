@@ -1,6 +1,6 @@
 {
   "name": "react-worker-image",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "React component to fetch image resources via web workers",
   "main": "index.js",
   "scripts": {
@@ -27,13 +27,20 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-app": "^3.1.1",
     "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.6.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.2.2",
-    "flow-bin": "^0.64.0"
+    "flow-bin": "^0.64.0",
+    "prettier": "^1.10.2"
   },
   "peerDependencies": {
     "react": "^15.0.0-0 || ^16.0.0-0",
     "react-dom": "^15.0.0-0 || ^16.0.0-0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "parser": "flow"
   }
 }

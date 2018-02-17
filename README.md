@@ -40,6 +40,7 @@ usage in code
 | style | optional     |    Object |
 |imageClass | optional | string
 |containerClass | optional | string
+|onLoad | optional | function
 
 The above props are applied to the img tag.
 

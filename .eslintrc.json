@@ -7,7 +7,8 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:flowtype/recommended"
+    "plugin:flowtype/recommended",
+    "prettier"
   ],
   "globals": {
     "__DEV__": false
@@ -23,23 +24,14 @@
   "plugins": [
     "flowtype",
     "react",
-    "sort-imports-es6-autofix"
+    "sort-imports-es6-autofix",
+    "prettier"
   ],
   "rules": {
     "curly": [
       "error"
     ],
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
+    "prettier/prettier": "error",
     "no-console": "off",
     "no-const-assign": 1,
     "no-extra-semi": 0,
@@ -50,10 +42,6 @@
     ],
     "prefer-const": [
       "error"
-    ],
-    "quotes": [
-      "error",
-      "single"
     ],
     "react/jsx-no-bind": [
       "error"
